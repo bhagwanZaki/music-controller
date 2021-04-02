@@ -29,8 +29,8 @@ export default class HomePage extends Component{
         return (
           <Grid container spacing={3}>
             <Grid item xs={12} align="center">
-              <Typography variant="h3" compact="h3">
-                House Party
+              <Typography variant="h1" compact="h1">
+                Floran Music House
               </Typography>
             </Grid>
             <Grid item xs={12} align="center">
@@ -38,9 +38,7 @@ export default class HomePage extends Component{
                 <Button color="primary" to="/join" component={Link}>
                   Join a Room
                 </Button>
-                <Button color="default" to="/info" component={Link}>
-                  Info
-                </Button>
+                
                 <Button color="secondary" to="/create" component={Link}>
                   Create a Room
                 </Button>
